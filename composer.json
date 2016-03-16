@@ -1,0 +1,28 @@
+{
+    "name": "vishalraj/google-recaptcha",
+    "type": "symfony-bundle",
+    "description": "Symfony GoogleReCaptchaBundle",
+    "keywords": ["Symfony Google ReCaptcha"],
+    "homepage": "http://github.com/vishalraj82/google-recaptcha",
+    "license": "MIT",
+    "authors": [{
+        "name": "Vishal Raj",
+        "email": "vishalaj82@gmail.com",
+        "homepage": "https://github.com/vishalraj82/google-recaptcha/contributors"
+    }],
+    "require": {
+        "google/recaptcha": "~1.2"
+    },
+    "require-dev": {
+    },
+    "suggest": {
+    },
+    "autoload": {
+        "psr-4": { "Google\\Recaptcha\\": "" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.0.2-dev"
+        }
+    }
+}
