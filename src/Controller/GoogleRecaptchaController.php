@@ -1,10 +1,10 @@
 <?php
 
-namespace Google\Recaptcha\GoogleRecaptchaBundle\Controller;
+namespace Google\Recaptcha\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
-use Google\Recaptcha\GoogleRecaptchaBundle\Exception\GoogleRecaptchaException;
+use Google\Recaptcha\Exception\GoogleRecaptchaException;
 
 
 class GoogleRecaptchaController extends Controller

@@ -1,6 +1,6 @@
 <?php
 
-namespace Google\Recaptcha\GoogleRecaptchaBundle\Controller;
+namespace Google\Recaptcha\Controller;
 
 use \Exception as BaseException;
 

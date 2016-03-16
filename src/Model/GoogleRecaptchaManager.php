@@ -1,9 +1,9 @@
 <?php
 
-namespace Google\Recaptcha\GoogleRecaptchaBundle\Controller;
+namespace Google\Recaptcha\Controller;
 
 use ReCaptcha\ReCaptcha as GoogleRecaptcha;
-use Google\Recaptcha\GoogleRecaptchaBundle\Exception\GoogleRecaptchaException;
+use Google\Recaptcha\Exception\GoogleRecaptchaException;
 
 class GoogleRecaptchaManager
 {

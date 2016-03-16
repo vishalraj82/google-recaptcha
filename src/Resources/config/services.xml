@@ -4,9 +4,9 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
     <services>
-        <service id="google.recaptcha.factory" class="Google\Recaptcha\GoogleRecaptchaBundle\Factory\GoogleRecaptchaFactory">
+        <service id="google.recaptcha.factory" class="Google\Recaptcha\Factory\GoogleRecaptchaFactory">
             <argument type="service" id="service_container" />
         </service>
-        <service id="google.recaptcha.container" class="Google\Recaptcha\GoogleRecaptchaBundle\Controller\GoogleRecaptchaController" />
+        <service id="google.recaptcha.container" class="Google\Recaptcha\Controller\GoogleRecaptchaController" />
     </services>
 </container>
