@@ -11,18 +11,18 @@
         "homepage": "https://github.com/vishalraj82/google-recaptcha/contributors"
     }],
     "require": {
-        "google/recaptcha": "~1.2"
+        "google/recaptcha": "~1.1.2"
     },
     "require-dev": {
     },
     "suggest": {
     },
     "autoload": {
-        "psr-4": { "Google\\Recaptcha\\": "" }
+        "psr-4": { "Google\\Recaptcha\\": "src/" }
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "0.0.2-dev"
+            "dev-master": "0.0.3-dev"
         }
     }
 }
