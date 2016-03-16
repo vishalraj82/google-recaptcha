@@ -1,6 +1,6 @@
 <?php
 
-namespace VishalRaj\Google\Recaptcha\GoogleRecaptchaBundle;
+namespace Google\Recaptcha\GoogleRecaptchaBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace VishalRaj\Google\Recaptcha\GoogleRecaptchaBundle\Tests\Controller;
+namespace Google\Recaptcha\GoogleRecaptchaBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 
