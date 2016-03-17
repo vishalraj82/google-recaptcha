@@ -1,6 +1,6 @@
 <?php
 
-namespace Google\Recaptcha\Controller;
+namespace Google\Recaptcha\Factory;
 
 use Symfony\Component\DependencyInjection\ContainerInterface;
 use Google\Recaptcha\Model\GoogleRecaptchaManager;
