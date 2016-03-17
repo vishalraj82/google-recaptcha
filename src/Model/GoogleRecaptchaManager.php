@@ -1,6 +1,6 @@
 <?php
 
-namespace Google\Recaptcha\Controller;
+namespace Google\Recaptcha\Model;
 
 use ReCaptcha\ReCaptcha as GoogleRecaptcha;
 use Google\Recaptcha\Exception\GoogleRecaptchaException;
